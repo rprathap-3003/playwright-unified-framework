@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-playwright.playwright",
+    "github.copilot",
+    "github.copilot-chat",
+    "qameta.allure-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}

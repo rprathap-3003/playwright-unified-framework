@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Product Defects (Assertion Failures)",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*(expect|AssertionError|received|toBe|toEqual).*"
+  },
+  {
+    "name": "Timeout & Synchronization Issues",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*(timeout|TimeoutError|waiting for locator).*"
+  },
+  {
+    "name": "Infrastructure & Network Failures",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(net::ERR|ECONNREFUSED|ENOTFOUND|Target closed).*"
+  },
+  {
+    "name": "Element Not Found",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*(locator not found|strict mode violation).*"
+  }
+]

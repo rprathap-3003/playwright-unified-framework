@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "playwright.env": {
+    "ENV": "staging"
+  },
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "github.copilot.advanced": {
+    "inlineSuggest.enable": true
+  },
+  "github.copilot.chat.commitConfirmation.enabled": true
+}
